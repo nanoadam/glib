@@ -13,6 +13,7 @@
   *   - Added RandomID to generate custom/random id's (strings). Arguments: RandomID(options: { length: Number: 1, filter: Array: [] });
   *   - Added Object.toMap() to convert the object into a Map.
   *   - Fixed Spelling mistake in getRandomNumber.
+  *   - Fixed Error Message in prototypeOf & made it cleaner.
   *   - Made print() & log() & dbg() return when used.
   *   - Cleaned up String.toArray()
   *   - Switched Back to Error using CustomError
@@ -73,9 +74,8 @@ function dbg(...text) {
   Elements
 */
 function prototypeOf(a) {
-    if (!a) return new CustomError("prototypeOf", `No type provided, please provide a type. Example: [ get_prototype_of(JSON) ]`);
-    if (a.prototype) return a.prototype;
-    return a.__proto__;
+    if (!a) return new CustomError("prototypeOf", `No type provided, please provide a type. Example: [ prototypeOf(JSON) ]`);
+    return ((a.prototype !== undefined) ? a.prototype : a.__proto__);
 }
 
 function parseHTML(str) {
