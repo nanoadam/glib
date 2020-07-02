@@ -16,6 +16,7 @@ My Personal JavaScript Library!
   *   - Added ASSERT(<operation>) to make sure the provided operation is TRUE else throw Error!
   *   - Added dbg() as a simple debug function to print out stuff with "DEBUG: " before it...
   *   - Added RandomID to generate custom/random id's (strings). Arguments: RandomID(options: { length: Number: 1, filter: Array: [] });
+  *   - Added Object.toMap() to convert the object into a Map.
   *   - Fixed Spelling mistake in getRandomNumber.
   *   - Made print() & log() & dbg() return when used.
   *   - Cleaned up String.toArray()
