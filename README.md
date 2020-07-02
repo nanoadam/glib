@@ -18,6 +18,7 @@ My Personal JavaScript Library!
   *   - Added RandomID to generate custom/random id's (strings). Arguments: RandomID(options: { length: Number: 1, filter: Array: [] });
   *   - Added Object.toMap() to convert the object into a Map.
   *   - Fixed Spelling mistake in getRandomNumber.
+  *   - Fixed Error Message in prototypeOf & made it cleaner.
   *   - Made print() & log() & dbg() return when used.
   *   - Cleaned up String.toArray()
   *   - Switched Back to Error using CustomError
