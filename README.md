@@ -1,4 +1,4 @@
-## GLib 
+# GLib 
 My Personal JavaScript Library!
 
 # Changelog
