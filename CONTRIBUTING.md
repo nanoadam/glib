@@ -5,3 +5,6 @@
 **Do:**
 
 - Write in Vanilla JavaScript
+
+**Do Not:**
+- Write in other programming lang's. 
