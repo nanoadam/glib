@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jura", sans-serif;
+  line-height: 1.5;
+  background: black;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "nav main main main";
+  color: white;
+}
+
+header {
+  background: blueviolet;
+  grid-area: header;
+}
+
+header h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
